@@ -1,5 +1,5 @@
 outs:
-- md5: b03c22cbdd89823c0ec32044c4826343
-  size: 76913
+- md5: feaf6d725f3d44b5b34ed3c87873f922
+  size: 729
   hash: md5
   path: wine-prediction-dataset.csv
