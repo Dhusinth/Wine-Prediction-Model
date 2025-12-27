@@ -15,7 +15,7 @@ def parse_args():
     p.add_argument("--csv", default="wine-prediction-dataset.csv", help="Path to CSV (default: wine-prediction-dataset.csv)")
     p.add_argument("--target", default="quality", help="Target column name (default: quality)")
     p.add_argument("--experiment", default="wine-prediction", help="MLflow experiment name")
-    p.add_argument("--run", default="run-2", help="MLflow run name")
+    p.add_argument("--run", default="run-1", help="MLflow run name")
     p.add_argument("--n-estimators", type=int, default=50, help="RandomForest n_estimators (default: 50)")                                    
     p.add_argument("--max-depth", type=int, default=5, help="RandomForest max_depth (default: 5)")
     p.add_argument("--test-size", type=float, default=0.2, help="Test split fraction (default: 0.3)")
